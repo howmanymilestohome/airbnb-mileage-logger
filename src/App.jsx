@@ -201,7 +201,7 @@ export default function AirbnbMileageLogger() {
 
         <div className="grid grid-cols-3 gap-2 text-center">
           <Card className="rounded-2xl shadow-sm">
-            <CardContent className="p-3">
+            <CardContent className="p-2">
               <div className="flex items-center justify-between">
                 <p className="text-sm font-medium text-slate-500">Filtered Miles</p>
                 <Car className="h-5 w-5 text-slate-400" />
@@ -211,7 +211,7 @@ export default function AirbnbMileageLogger() {
           </Card>
 
           <Card className="rounded-2xl shadow-sm">
-            <CardContent className="p-3">
+            <CardContent className="p-2">
               <div className="flex items-center justify-between">
                 <p className="text-sm font-medium text-slate-500">Estimated Deduction</p>
                 <ClipboardList className="h-5 w-5 text-slate-400" />
@@ -222,7 +222,7 @@ export default function AirbnbMileageLogger() {
           </Card>
 
           <Card className="rounded-2xl shadow-sm">
-            <CardContent className="p-3">
+            <CardContent className="p-2">
               <div className="flex items-center justify-between">
                 <p className="text-sm font-medium text-slate-500">Logged Trips</p>
                 <CalendarDays className="h-5 w-5 text-slate-400" />
