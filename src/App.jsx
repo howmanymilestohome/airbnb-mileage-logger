@@ -191,9 +191,7 @@ export default function AirbnbMileageLogger() {
               <Car className="h-4 w-4" /> Airbnb Inspection Mileage
             </div>
             <h1 className="mb-1 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">Mileage Logger</h1>
-            <p className="mt-0 text-sm text-slate-500">
-  Inspection & business mileage tracker
-</p>
+            
           </div>
 
           
