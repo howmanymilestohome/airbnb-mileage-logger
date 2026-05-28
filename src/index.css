@@ -48,7 +48,10 @@ h2 {
 }
 
 .app-shell {
-  border-color: rgba(248, 153, 141, 0.45);
-  background: rgba(255, 255, 255, 0.45);
-  backdrop-filter: blur(6px);
+  background: rgba(255, 255, 255, 0.75);
+  border: 2px solid rgba(214, 120, 108, 0.35);
+  border-radius: 28px;
+  padding: 24px;
+  margin-top: 20px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
 }
