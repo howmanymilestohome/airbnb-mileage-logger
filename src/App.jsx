@@ -203,7 +203,7 @@ export default function AirbnbMileageLogger() {
 
         <div className="grid gap-2 md:grid-cols-3">
           <Card className="rounded-2xl shadow-sm">
-            <CardContent className="p-5">
+            <CardContent className="p-3">
               <div className="flex items-center justify-between">
                 <p className="text-sm font-medium text-slate-500">Filtered Miles</p>
                 <Car className="h-5 w-5 text-slate-400" />
@@ -213,7 +213,7 @@ export default function AirbnbMileageLogger() {
           </Card>
 
           <Card className="rounded-2xl shadow-sm">
-            <CardContent className="p-5">
+            <CardContent className="p-3">
               <div className="flex items-center justify-between">
                 <p className="text-sm font-medium text-slate-500">Estimated Deduction</p>
                 <ClipboardList className="h-5 w-5 text-slate-400" />
@@ -224,7 +224,7 @@ export default function AirbnbMileageLogger() {
           </Card>
 
           <Card className="rounded-2xl shadow-sm">
-            <CardContent className="p-5">
+            <CardContent className="p-3">
               <div className="flex items-center justify-between">
                 <p className="text-sm font-medium text-slate-500">Logged Trips</p>
                 <CalendarDays className="h-5 w-5 text-slate-400" />
@@ -236,7 +236,7 @@ export default function AirbnbMileageLogger() {
 
         <div className="grid gap-6 lg:grid-cols-[520px_1fr]">
           <Card className="rounded-2xl shadow-sm">
-            <CardContent className="p-5">
+            <CardContent className="p-3">
               <h2 className="mb-5 text-3xl font-bold text-slate-900">Add a Trip</h2>
 
               <form onSubmit={addEntry} className="space-y-4">
@@ -344,7 +344,7 @@ export default function AirbnbMileageLogger() {
           </Card>
 
           <Card className="rounded-2xl shadow-sm">
-            <CardContent className="p-5">
+            <CardContent className="p-3">
               <div className="mb-4 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
                 <h2 className="text-xl font-semibold text-slate-900">Mileage log</h2>
                 <div className="flex gap-2">
