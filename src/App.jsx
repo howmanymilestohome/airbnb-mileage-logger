@@ -27,12 +27,7 @@ const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyswOwtRz_rt1
 
 const today = new Date().toISOString().slice(0, 10);
 
-const starterProperties = [
-  "Whistling Woods",
-  "Mystic Sun",
-  "Mystic Surf",
-  "Other",
-];
+const starterProperties = [];
 
 export default function AirbnbMileageLogger() {
   const [entries, setEntries] = useState([]);
