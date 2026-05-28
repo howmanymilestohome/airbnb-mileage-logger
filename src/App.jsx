@@ -32,6 +32,7 @@ const starterProperties = [];
 export default function AirbnbMileageLogger() {
   const [entries, setEntries] = useState([]);
   const [syncing, setSyncing] = useState(false);
+  const [editingId, setEditingId] = useState(null);
   const [form, setForm] = useState({
     date: today,
     property: "",
