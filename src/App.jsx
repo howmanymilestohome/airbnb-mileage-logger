@@ -118,8 +118,15 @@ export default function AirbnbMileageLogger() {
       notes: form.notes.trim(),
     };
 
-    setEntries((current) => [newEntry, ...current]);
-    syncToGoogleSheets(newEntry);
+    if (editingId) {
+  setEntries((current) =>
+    current.map((entry) => (entry.id === editingId ? newEntry : entry))
+  );
+  setEditingId(null);
+} else {
+  setEntries((current) => [newEntry, ...current]);
+  syncToGoogleSheets(newEntry);
+}
     setForm({
       date: today,
       property: "",
