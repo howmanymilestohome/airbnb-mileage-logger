@@ -57,11 +57,11 @@ h2 {
 }
 
 .section-heading {
-  color: rgba(214, 120, 108, 0.95) !important;
+  color: rgba(145, 67, 57, 1) !important;
 }
 
 .section-banner {
-  background: rgba(248, 153, 141, 0.18);
+  background: rgba(248, 153, 141, 0.32);
   border: 1px solid rgba(214, 120, 108, 0.35);
   border-radius: 14px;
   padding: 4px 10px;
