@@ -70,3 +70,8 @@ h2 {
 .section-banner {
   text-align: center;
 }
+
+.section-banner h2 {
+  margin: 0;
+  line-height: 1.1;
+}
