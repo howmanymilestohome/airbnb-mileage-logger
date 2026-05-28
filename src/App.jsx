@@ -345,7 +345,7 @@ export default function AirbnbMileageLogger() {
           <Card className="rounded-2xl shadow-sm">
             <CardContent className="p-3">
               <div className="mb-4 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
-                <h2 className="text-xl font-semibold text-slate-900">Mileage log</h2>
+                <h2 className="section-heading text-xl font-semibold">Mileage Log</h2>
                 <div className="flex gap-2">
                   <select
                     value={filterProperty}
