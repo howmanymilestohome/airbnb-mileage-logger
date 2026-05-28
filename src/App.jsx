@@ -257,7 +257,7 @@ export default function AirbnbMileageLogger() {
                     value={form.property}
                     onChange={(event) => updateForm("property", event.target.value)}
                     className="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 outline-none ring-slate-300 focus:ring-2"
-                    placeholder="Whistling Woods"
+                    placeholder="Enter property name"
                   />
                   <datalist id="property-options">
                     {properties.map((property) => (
