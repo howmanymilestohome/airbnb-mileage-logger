@@ -34,7 +34,7 @@ export default function AirbnbMileageLogger() {
   const [syncing, setSyncing] = useState(false);
   const [form, setForm] = useState({
     date: today,
-    property: "Whistling Woods",
+    property: "",
     purpose: "Inspection",
     startOdometer: "",
     endOdometer: "",
