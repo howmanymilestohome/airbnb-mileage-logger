@@ -196,9 +196,7 @@ export default function AirbnbMileageLogger() {
 </p>
           </div>
 
-          <Button onClick={exportCsv} className="rounded-2xl shadow-sm" disabled={filteredEntries.length === 0}>
-            <Download className="mr-2 h-4 w-4" /> Export CSV
-          </Button>
+          
         </div>
 
         <div className="grid gap-2 md:grid-cols-3">
@@ -418,9 +416,14 @@ export default function AirbnbMileageLogger() {
           </Card>
         </div>
 
-        <p className="text-center text-xs text-slate-500">
-          Entries save in this browser using local storage. For tax records, export CSV periodically and keep a backup.
-        </p>
+        <div className="flex flex-col items-center gap-3 text-center">
+  <Button onClick={exportCsv} className="rounded-2xl shadow-sm" disabled={filteredEntries.length === 0}>
+    <Download className="mr-2 h-4 w-4" /> Export CSV
+  </Button>
+  <p className="text-xs text-slate-500">
+    Entries save in this browser using local storage. For tax records, export CSV periodically and keep a backup.
+  </p>
+</div>
       </div>
     </div>
   );
