@@ -206,7 +206,7 @@ export default function AirbnbMileageLogger() {
                 <p className="text-sm font-medium text-slate-500">Filtered Miles</p>
                 <Car className="h-5 w-5 text-slate-400" />
               </div>
-              <p className="mt-3 text-3xl font-bold text-slate-900">{totalMiles.toFixed(1)}</p>
+              <p className="mt-3 text-xl font-bold text-slate-900">{totalMiles.toFixed(1)}</p>
             </CardContent>
           </Card>
 
@@ -216,7 +216,7 @@ export default function AirbnbMileageLogger() {
                 <p className="text-sm font-medium text-slate-500">Estimated Deduction</p>
                 <ClipboardList className="h-5 w-5 text-slate-400" />
               </div>
-              <p className="mt-3 text-3xl font-bold text-slate-900">${estimatedDeduction.toFixed(2)}</p>
+              <p className="mt-3 text-xl font-bold text-slate-900">${estimatedDeduction.toFixed(2)}</p>
               <p className="mt-1 text-xs text-slate-500">Using $0.67/mile. Update rate as needed.</p>
             </CardContent>
           </Card>
@@ -227,7 +227,7 @@ export default function AirbnbMileageLogger() {
                 <p className="text-sm font-medium text-slate-500">Logged Trips</p>
                 <CalendarDays className="h-5 w-5 text-slate-400" />
               </div>
-              <p className="mt-3 text-3xl font-bold text-slate-900">{filteredEntries.length}</p>
+              <p className="mt-3 text-xl font-bold text-slate-900">{filteredEntries.length}</p>
             </CardContent>
           </Card>
         </div>
