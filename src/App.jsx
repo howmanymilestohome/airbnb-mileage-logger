@@ -338,6 +338,8 @@ export default function AirbnbMileageLogger() {
                   {syncing ? "Saving..." : null}
                   <Plus className="mr-2 h-4 w-4" /> Add Mileage Entry
                 </Button>
+<hr className="mt-5 border-slate-300" />
+                
               </form>
             </CardContent>
           </Card>
