@@ -101,3 +101,11 @@ h2 {
   padding: 6px 10px;
   font-weight: 700;
 }
+
+.inspection-subtitle {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #7a7a7a;
+  margin-bottom: 8px;
+}
