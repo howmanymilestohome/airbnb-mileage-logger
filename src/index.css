@@ -36,3 +36,13 @@ h1 {
 h2 {
   font-size: 26px;
 }
+
+
+.stats-row {
+  display: flex;
+  gap: 10px;
+}
+
+.stats-row > div {
+  flex: 1;
+}
