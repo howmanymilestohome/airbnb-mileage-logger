@@ -121,7 +121,7 @@ export default function AirbnbMileageLogger() {
     syncToGoogleSheets(newEntry);
     setForm({
       date: today,
-      property: form.property,
+      property: "",
       purpose: "Inspection",
       startOdometer: "",
       endOdometer: "",
