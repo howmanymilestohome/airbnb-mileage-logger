@@ -432,6 +432,12 @@ function editEntry(entry) {
                         <div className="text-sm text-slate-600">{entry.purpose}</div>
                         <div className="font-semibold text-slate-900">{Number(entry.miles).toFixed(1)}</div>
                         <button
+  onClick={() => editEntry(entry)}
+  className="edit-button"
+>
+  Edit
+</button> 
+                        <button
                           onClick={() => deleteEntry(entry.id)}
                           className="inline-flex h-9 w-9 items-center justify-center rounded-xl text-slate-400 hover:bg-slate-100 hover:text-slate-700"
                           aria-label="Delete entry"
