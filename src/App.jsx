@@ -161,6 +161,21 @@ export default function AirbnbMileageLogger() {
     }
   }
 
+function editEntry(entry) {
+  setForm({
+    date: entry.date,
+    property: entry.property,
+    purpose: entry.purpose,
+    startOdometer: entry.startOdometer || "",
+    endOdometer: entry.endOdometer || "",
+    miles: entry.miles || "",
+    notes: entry.notes || "",
+  });
+
+  setEditingId(entry.id);
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+  
   function deleteEntry(id) {
     setEntries((current) => current.filter((entry) => entry.id !== id));
   }
