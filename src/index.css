@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #f8fafc;
+  font-size: 18px;
 }
 
 #root {
@@ -14,4 +15,24 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  font-size: 18px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 26px;
 }
