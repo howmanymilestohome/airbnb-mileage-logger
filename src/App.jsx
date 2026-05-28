@@ -234,7 +234,7 @@ export default function AirbnbMileageLogger() {
           </Card>
         </div>
 
-        <div className="grid gap-6 lg:grid-cols-[420px_1fr]">
+        <div className="grid gap-6 lg:grid-cols-[520px_1fr]">
           <Card className="rounded-2xl shadow-sm">
             <CardContent className="p-5">
               <h2 className="mb-5 text-3xl font-bold text-slate-900">Add a Trip</h2>
