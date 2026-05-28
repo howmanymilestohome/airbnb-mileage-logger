@@ -234,7 +234,9 @@ export default function AirbnbMileageLogger() {
         <div className="grid gap-6 lg:grid-cols-[520px_1fr]">
           <Card className="rounded-2xl shadow-sm">
             <CardContent className="p-3">
-              <h2 className="section-heading mb-5 text-3xl font-bold text-center">ADD A TRIP</h2>
+              <div className="section-banner">
+  <h2 className="section-heading text-3xl font-bold text-center">ADD A TRIP</h2>
+</div>
 
               <form onSubmit={addEntry} className="trip-form">
                 <div>
@@ -345,7 +347,9 @@ export default function AirbnbMileageLogger() {
           <Card className="rounded-2xl shadow-sm">
             <CardContent className="p-3">
               <div className="mb-4 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
-                <h2 className="section-heading text-xl font-semibold text-center">MILEAGE LOG</h2>
+                <div className="section-banner">
+  <h2 className="section-heading text-xl font-semibold text-center">MILEAGE LOG</h2>
+</div>
                 <div className="flex gap-2">
                   <select
                     value={filterProperty}
