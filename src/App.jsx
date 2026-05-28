@@ -122,6 +122,7 @@ export default function AirbnbMileageLogger() {
   setEntries((current) =>
     current.map((entry) => (entry.id === editingId ? newEntry : entry))
   );
+  syncToGoogleSheets(newEntry);
   setEditingId(null);
 } else {
   setEntries((current) => [newEntry, ...current]);
