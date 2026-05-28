@@ -236,7 +236,7 @@ export default function AirbnbMileageLogger() {
             <CardContent className="p-3">
               <h2 className="section-heading mb-5 text-3xl font-bold">Add a Trip</h2>
 
-              <form onSubmit={addEntry} className="space-y-4">
+              <form onSubmit={addEntry} className="trip-form">
                 <div>
                   <label className="mb-1 block text-sm font-medium text-slate-700">Date</label>
                   <input
