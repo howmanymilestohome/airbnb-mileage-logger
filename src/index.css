@@ -75,3 +75,20 @@ h2 {
   margin: 0;
   line-height: 1.1;
 }
+
+.title-banner {
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.title-heading {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #7a7a7a;
+  line-height: 1.1;
+}
