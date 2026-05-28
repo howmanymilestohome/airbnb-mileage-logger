@@ -191,7 +191,7 @@ export default function AirbnbMileageLogger() {
 <div className="title-banner">
   <h1 className="title-heading">MILEAGE LOGGER</h1>
 </div>
- <div className="mb-2 flex items-center gap-2 text-sm font-medium text-slate-500">
+ <div className="mb-2 text-center text-sm font-medium text-slate-500">
   Airbnb Inspection Mileage
 </div>
             
