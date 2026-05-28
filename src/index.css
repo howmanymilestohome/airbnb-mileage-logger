@@ -77,8 +77,8 @@ h2 {
 }
 
 .title-banner {
-  background: rgba(0, 0, 0, 0.04);
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: #f3f4f6;
+  border: 1px solid #d1d5db;
   border-radius: 14px;
   padding: 6px 12px;
   margin-bottom: 10px;
