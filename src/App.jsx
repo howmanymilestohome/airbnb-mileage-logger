@@ -184,7 +184,7 @@ export default function AirbnbMileageLogger() {
 
   return (
     <div className="min-h-screen bg-slate-50 px-5 py-4 md:px-10 md:py-8">
-      <div className="mx-auto max-w-6xl space-y-3 rounded-3xl border p-5 shadow-sm">
+      <div className="app-shell mx-auto max-w-6xl space-y-3 rounded-3xl border p-5 shadow-sm">
         <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
           <div>
             <div className="mb-2 flex items-center gap-2 text-sm font-medium text-slate-500">
