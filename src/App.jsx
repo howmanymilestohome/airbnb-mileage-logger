@@ -190,7 +190,7 @@ export default function AirbnbMileageLogger() {
             <div className="mb-2 flex items-center gap-2 text-sm font-medium text-slate-500">
               <Car className="h-4 w-4" /> Airbnb Inspection Mileage
             </div>
-            Around line ~180, replace your current “Mileage Logger” line with this whole block:
+        
 
 <div className="title-banner">
   <h1 className="title-heading">Mileage Logger</h1>
