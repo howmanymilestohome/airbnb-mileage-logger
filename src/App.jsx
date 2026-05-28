@@ -76,9 +76,12 @@ export default function AirbnbMileageLogger() {
   }, [entries]);
 
   const properties = useMemo(() => {
-    const allProperties = new Set([...starterProperties, ...entries.map((entry) => entry.property)]);
-    return Array.from(allProperties);
-  }, [entries]);
+  const allProperties = new Set([
+    ...starterProperties,
+    ...entries.map((entry) => entry.property).filter(Boolean),
+  ]);
+  return Array.from(allProperties).sort((a, b) => a.localeCompare(b));
+}, [entries]);
 
   const filteredEntries = useMemo(() => {
     return entries
