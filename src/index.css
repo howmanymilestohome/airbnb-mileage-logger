@@ -46,3 +46,9 @@ h2 {
 .stats-row > div {
   flex: 1;
 }
+
+.app-shell {
+  border-color: rgba(248, 153, 141, 0.45);
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(6px);
+}
