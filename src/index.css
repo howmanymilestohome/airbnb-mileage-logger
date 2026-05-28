@@ -55,3 +55,7 @@ h2 {
   margin-top: 20px;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
 }
+
+.section-heading {
+  color: rgba(214, 120, 108, 0.95) !important;
+}
