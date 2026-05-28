@@ -108,7 +108,7 @@ export default function AirbnbMileageLogger() {
     }
 
     const newEntry = {
-      id: crypto.randomUUID(),
+      id: editingId || crypto.randomUUID(),
       date: form.date,
       property: form.property.trim(),
       purpose: form.purpose.trim(),
