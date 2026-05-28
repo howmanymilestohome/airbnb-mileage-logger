@@ -201,7 +201,7 @@ export default function AirbnbMileageLogger() {
           </Button>
         </div>
 
-        <div className="grid gap-4 md:grid-cols-3">
+        <div className="grid gap-2 md:grid-cols-3">
           <Card className="rounded-2xl shadow-sm">
             <CardContent className="p-5">
               <div className="flex items-center justify-between">
