@@ -178,6 +178,9 @@ if (savedDraft) {
       miles: "",
       notes: "",
     });
+
+localStorage.removeItem(DRAFT_STORAGE_KEY);
+    
   }
 
   async function syncToGoogleSheets(entry) {
