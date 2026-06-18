@@ -343,9 +343,9 @@ function editEntry(entry) {
                     onChange={(event) => updateForm("purpose", event.target.value)}
                     className="w-full rounded-xl border border-slate-200 bg-white px-3 py-2 outline-none ring-slate-300 focus:ring-2"
                   >
-                    <option>Inspection</option>
-                    <option>Supply run</option>
-                    <option>Cleaner check</option>
+                    <option>Monthly Inspection</option>
+                    <option>Surprise Inspection</option>
+                    <option>Supply Run</option>
                     <option>Maintenance visit</option>
                     <option>Guest issue</option>
                     <option>Other business trip</option>
