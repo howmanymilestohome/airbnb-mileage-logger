@@ -22,6 +22,9 @@ function CardContent({ children, className = "" }) {
 
 const STORAGE_KEY = "airbnb-mileage-logger-v1";
 
+const DRAFT_STORAGE_KEY = "airbnb-mileage-draft-v1";
+const DRAFT_EXPIRATION_MS = 48 * 60 * 60 * 1000;
+
 // Replace this with your Google Apps Script Web App URL after setup
 const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyswOwtRz_rt1KMjoVlSoDk7Zb6kD9jIMZgk58BOg8eBZRJsTJ3UxV3fvgIRSAipG8m/exec";
 
