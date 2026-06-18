@@ -80,6 +80,27 @@ if (savedDraft) {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(entries));
   }, [entries]);
 
+  useEffect(() => {
+  if (editingId) return;
+
+  const hasDraft =
+    form.property.trim() !== "" ||
+    form.startOdometer !== "" ||
+    form.endOdometer !== "" ||
+    form.miles !== "" ||
+    form.notes.trim() !== "";
+
+  if (hasDraft) {
+    localStorage.setItem(
+      DRAFT_STORAGE_KEY,
+      JSON.stringify({
+        savedAt: Date.now(),
+        form,
+      })
+    );
+  }
+}, [form, editingId]);
+
   const calculatedMiles = useMemo(() => {
     const start = parseFloat(form.startOdometer);
     const end = parseFloat(form.endOdometer);
