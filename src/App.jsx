@@ -57,6 +57,23 @@ export default function AirbnbMileageLogger() {
         setEntries([]);
       }
     }
+
+const savedDraft = localStorage.getItem(DRAFT_STORAGE_KEY);
+if (savedDraft) {
+  try {
+    const draft = JSON.parse(savedDraft);
+    const draftAge = Date.now() - draft.savedAt;
+
+    if (draftAge <= DRAFT_EXPIRATION_MS && draft.form) {
+      setForm((current) => ({ ...current, ...draft.form }));
+    } else {
+      localStorage.removeItem(DRAFT_STORAGE_KEY);
+    }
+  } catch {
+    localStorage.removeItem(DRAFT_STORAGE_KEY);
+  }
+}
+    
   }, []);
 
   useEffect(() => {
